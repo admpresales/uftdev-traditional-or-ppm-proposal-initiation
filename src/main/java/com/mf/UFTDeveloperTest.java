@@ -49,7 +49,7 @@ public class UFTDeveloperTest extends UnitTestClassBase {
     @Test
     public void test() throws GeneralLeanFtException {
         java.util.Date date=new Date();
-        String ProposalName = "Proposal Name" + date;
+        String ProposalName = "Proposal Name " + date.getTime();
         String ExecutiveOverview = "This is the description for " + ProposalName;
 
         browser.navigate("http://nimbusserver.aos.com:8088");
