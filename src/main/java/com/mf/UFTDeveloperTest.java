@@ -43,6 +43,8 @@ public class UFTDeveloperTest extends UnitTestClassBase {
 
     @Test
     public void test() throws GeneralLeanFtException {
+        browser.navigate("http://nimbusserver.aos.com:8088");
+        browser.sync();
     }
 
 }
